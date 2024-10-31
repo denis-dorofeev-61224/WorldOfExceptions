@@ -13,5 +13,6 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException e) {
             System.err.println("Validation error: " + e.getMessage());
         }
+        System.out.println("The homework done.");
     }
 }
